@@ -1,0 +1,39 @@
+.hides {
+    display: none;
+} 
+.float-up {
+    animation: floatup 1s ease-out;
+}
+.main-title1 {
+    font-family: 'Dancing Script', cursive;
+}
+.main-title2 { 
+        font-family: 'Tangerine', serif;
+        font-size: 72px;
+        text-shadow: 4px 4px 4px #aaa; 
+}
+
+@-webkit-keyframes floatup {
+    0% {
+        transform: translateY(150px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+.float-up2 {
+    animation: floatup 1s ease-out;
+    animation-delay: 0.5s;
+}
+@-webkit-keyframes floatup2 {
+    0% {
+        transform: translateX(150px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}

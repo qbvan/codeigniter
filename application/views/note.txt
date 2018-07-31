@@ -1,0 +1,2 @@
+truy cap bao cac phan tu cua session bang cachs
+$username = $this->session->userdata['loged_in']['username'];
